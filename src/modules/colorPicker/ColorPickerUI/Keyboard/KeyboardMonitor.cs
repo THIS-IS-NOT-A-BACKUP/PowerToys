@@ -21,7 +21,7 @@ namespace ColorPicker.Keyboard
     {
         private readonly AppStateHandler _appStateHandler;
         private readonly IUserSettings _userSettings;
-        private List<string> _previouslyPressedKeys;
+        private List<string> _previouslyPressedKeys = new List<string>();
 
         private List<string> _activationKeys = new List<string>();
         private GlobalKeyboardHook _keyboardHook;
@@ -72,8 +72,16 @@ namespace ColorPicker.Keyboard
             // ESC pressed
             if (virtualCode == KeyInterop.VirtualKeyFromKey(Key.Escape))
             {
-                _appStateHandler.HideColorPicker();
-                PowerToysTelemetry.Log.WriteEvent(new ColorPickerCancelledEvent());
+                if (_appStateHandler.IsColorPickerEditorVisible())
+                {
+                    _appStateHandler.HideColorPickerEditor();
+                }
+                else
+                {
+                    _appStateHandler.HideColorPicker();
+                    PowerToysTelemetry.Log.WriteEvent(new ColorPickerCancelledEvent());
+                }
+
                 return;
             }
 
