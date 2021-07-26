@@ -664,6 +664,7 @@ Functiondiscoverykeys
 fwlink
 fwrite
 fxcop
+FZE
 gabime
 GAC
 gacutil
@@ -2094,6 +2095,7 @@ todo
 toggleswitch
 toolbar
 Toolchain
+toolkitconverters
 toolset
 toolstrip
 tooltip
