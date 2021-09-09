@@ -127,7 +127,7 @@ Autorun
 AUTOSIZECOLUMNS
 AUTOUPDATE
 AValid
-avialable
+available
 awakeversion
 AWAYMODE
 AYUV
@@ -375,7 +375,6 @@ CXSMICON
 CXVIRTUALSCREEN
 cxx
 cxxopts
-CYMK
 CYSMICON
 cziplib
 Dac
