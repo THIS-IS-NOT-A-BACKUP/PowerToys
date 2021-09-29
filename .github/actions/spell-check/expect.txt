@@ -429,6 +429,7 @@ Delimarsky
 delims
 dend
 DENORMAL
+Deondre
 depersist
 deprioritized
 deps
@@ -569,6 +570,7 @@ errc
 errorlevel
 ERRORMESSAGE
 ERRORTITLE
+ESettings
 esize
 estdir
 etcore
@@ -994,6 +996,7 @@ IRepository
 IResult
 ISavable
 isbi
+iss
 ISearch
 IService
 isetting
@@ -1702,6 +1705,7 @@ RBUTTONUP
 rclsid
 RCONTROL
 RCtrl
+rdeveen
 RDW
 readme
 READMODE
