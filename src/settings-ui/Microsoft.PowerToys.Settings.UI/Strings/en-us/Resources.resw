@@ -401,6 +401,9 @@
   <data name="PowerLauncher_IgnoreHotkeysInFullScreen.Content" xml:space="preserve">
     <value>Ignore shortcuts in fullscreen mode</value>
   </data>
+  <data name="PowerLauncher_UseCentralizedKeyboardHook.Content" xml:space="preserve">
+    <value>Use centralized keyboard hook (try it if there are issues with the shortcut)</value>
+  </data>
   <data name="PowerLauncher_ClearInputOnLaunch.Content" xml:space="preserve">
     <value>Clear the previous query on launch</value>
   </data>
@@ -962,6 +965,9 @@ Made with 💗 by Microsoft and the PowerToys community.</value>
   </data>
   <data name="ImageResizer_FilenameFormatPlaceholder.PlaceholderText" xml:space="preserve">
     <value>Example: %1 (%2)</value>
+  </data>
+  <data name="ImageResizer_FilenameParameters.AutomationProperties.Name" xml:space="preserve">
+    <value>Filename parameters</value>
   </data>
   <data name="ColorModeHeader.Header" xml:space="preserve">
     <value>App theme</value>
