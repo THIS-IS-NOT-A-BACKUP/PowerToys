@@ -19,7 +19,7 @@ Microsoft PowerToys is a set of utilities for power users to tune and streamline
 | [Awake](https://aka.ms/PowerToysOverview_Awake) | [Color Picker](https://aka.ms/PowerToysOverview_ColorPicker) | [FancyZones](https://aka.ms/PowerToysOverview_FancyZones) |
 | [File Explorer Add-ons](https://aka.ms/PowerToysOverview_FileExplorerAddOns) | [Image Resizer](https://aka.ms/PowerToysOverview_ImageResizer) | [Keyboard Manager](https://aka.ms/PowerToysOverview_KeyboardManager) |
 | [PowerRename](https://aka.ms/PowerToysOverview_PowerRename) | [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) | [Shortcut Guide](https://aka.ms/PowerToysOverview_ShortcutGuide) |
-| [Video Conference Mute (Experimental)](https://aka.ms/PowerToysOverview_VideoConference) |  |  |
+| [Video Conference Mute (Experimental)](https://aka.ms/PowerToysOverview_VideoConference) | [Mouse utilities](https://aka.ms/PowerToysOverview_MouseUtilities) |  |
 
 ## Installing and running Microsoft PowerToys
 
@@ -47,7 +47,7 @@ To install the Video Conference mute, please use the [v0.46 experimental version
 Download PowerToys from [WinGet](https://github.com/microsoft/winget-cli#installing-the-client). To install PowerToys, run the following command from the command line / PowerShell:
 
 ```powershell
-WinGet install powertoys
+winget install Microsoft.PowerToys -s winget
 ```
 
 ### Other install methods
