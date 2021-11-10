@@ -733,6 +733,7 @@ Hardlines
 HARDWAREINPUT
 hashcode
 Hashset
+Hashtable
 HASHVAL
 hbitmap
 hbmp
@@ -786,6 +787,7 @@ hmonitor
 HOLDENTER
 HOLDESC
 homljgmgpmcbpjbnjpfijnhipfkiclkd
+Homepage
 HOOKPROC
 hostname
 hotkeycontrol
