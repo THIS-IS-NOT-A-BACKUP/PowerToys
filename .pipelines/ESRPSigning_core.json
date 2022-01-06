@@ -4,7 +4,7 @@
     "SignBatches": [
         {
             "MatchedPath": [
-                "!(ModernWpf)*.resources.dll",
+                "*.resources.dll",
 
                 "PowerToysSetupCustomActions.dll",
 
@@ -31,6 +31,9 @@
                 "modules\\ColorPicker\\PowerToys.ColorPicker.dll",
                 "modules\\ColorPicker\\PowerToys.ColorPickerUI.dll",
                 "modules\\ColorPicker\\PowerToys.ColorPickerUI.exe",
+
+                "modules\\AlwaysOnTop\\PowerToys.AlwaysOnTop.exe",
+                "modules\\AlwaysOnTop\\PowerToys.AlwaysOnTopModuleInterface.dll",
 
                 "modules\\Awake\\PowerToys.AwakeModuleInterface.dll",
                 "modules\\Awake\\PowerToys.Awake.exe",

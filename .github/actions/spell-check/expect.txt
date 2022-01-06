@@ -122,12 +122,16 @@ AWAYMODE
 AYUV
 backend
 backtracer
+BAEC
+BAF
 bak
 bbwe
 bck
 Bcl
+BEEE
 betadele
 betsegaw
+BFB
 BGR
 bgra
 BGSOUNDS
@@ -157,6 +161,7 @@ boolalpha
 Bools
 Boostrapper
 bootstrapper
+BOOTSTRAPPERINSTALLFOLDER
 Bopomofo
 BOTTOMALIGN
 BPBF
@@ -175,6 +180,7 @@ buf
 BUFSIZE
 bugreport
 Buid
+BUILDARCH
 buildtransitive
 BValue
 bytearray
@@ -195,10 +201,12 @@ CDeclaration
 CDEF
 cdpx
 CENTERALIGN
+CFDB
 cguid
 changecursor
 Changemove
 charconv
+ChaseKnowlden
 chdir
 CHILDACTIVATE
 CHILDWINDOW
@@ -217,6 +225,7 @@ clangformat
 CLASSDC
 classname
 CLASSNOTAVAILABLE
+CleanCodeDeveloper
 clickable
 clickonce
 CLIENTEDGE
@@ -352,6 +361,8 @@ Datavalue
 DATAW
 davidegiacometti
 Dayof
+DBCD
+DBDA
 dbg
 Dbghelp
 DBLCLKS
@@ -367,6 +378,7 @@ declspec
 decltype
 Dedup
 deduplicate
+DEFAULTBOOTSTRAPPERINSTALLFOLDER
 DEFAULTCOLOR
 DEFAULTFLAGS
 DEFAULTONLY
@@ -477,6 +489,9 @@ dwrite
 dxgi
 dxgiformat
 dxguid
+EAF
+EBA
+EBE
 ecount
 ededf
 EDITKEYBOARD
@@ -484,6 +499,8 @@ editkeyboardwindow
 editorconfig
 EDITSHORTCUTS
 editshortcutswindow
+EFBD
+efgh
 EFile
 egistry
 ekus
@@ -551,7 +568,10 @@ FANCYZONESDRAWLAYOUTTEST
 FANCYZONESEDITOR
 Farbraum
 FARPROC
+FBF
+FCCD
 fdw
+FEEBD
 feimage
 ffaa
 fff
@@ -592,6 +612,7 @@ FPower
 FRAMECHANGED
 FRAMEDOWNLOAD
 franky
+frankychen
 Froml
 fstream
 FTYPE
@@ -629,6 +650,8 @@ globals
 GNumber
 google
 GPTR
+Grayscale
+gsuberland
 gtm
 gui
 guiddef
@@ -850,6 +873,8 @@ INPUTTYPE
 INSTALLDESKTOPSHORTCUT
 INSTALLDIR
 INSTALLFOLDER
+INSTALLFOLDERTOBOOTSTRAPPERINSTALLFOLDER
+INSTALLFOLDERTOPREVIOUSINSTALLFOLDER
 INSTALLLOCATION
 INSTALLLOGATTRIBUTES
 INSTALLLOGMODE
@@ -983,6 +1008,7 @@ Keystool
 Keytool
 keyup
 KILLFOCUS
+Knowlden
 Knownfolders
 KSPROPERTY
 Kybd
@@ -1365,6 +1391,7 @@ outro
 outsettings
 OVERLAPPEDWINDOW
 overlaywindow
+Overridable
 OWNDC
 PACL
 PAINTSTRUCT
@@ -1396,6 +1423,7 @@ pdto
 pdtobj
 pdw
 PDWORD
+pedrolamas
 PERCEIVEDFLAG
 pesi
 PEXCEPTION
@@ -1463,6 +1491,7 @@ previewer
 PREVIEWHANDLERFRAMEINFO
 previewpane
 previouscamera
+PREVIOUSINSTALLFOLDER
 PREVIOUSVERSIONSINSTALLED
 prevpane
 prgms
@@ -1583,6 +1612,7 @@ renamable
 RENAMEONCOLLISION
 Renamer
 Reparse
+reportbug
 requery
 requerying
 rescap
@@ -1864,6 +1894,8 @@ swprintf
 SWRESTORE
 swscanf
 SYMED
+symlink
+symlinks
 SYMOPT
 SYNCMFT
 SYNCPAINT
@@ -1944,6 +1976,7 @@ Towindow
 towlower
 towupper
 tracelogging
+trackpad
 traies
 transcoded
 transparrent
@@ -2100,6 +2133,7 @@ wcsncmp
 wcsnicmp
 wdp
 wdupenv
+We'd
 weakme
 webcam
 webpage
