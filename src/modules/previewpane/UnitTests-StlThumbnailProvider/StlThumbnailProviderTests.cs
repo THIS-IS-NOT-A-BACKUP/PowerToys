@@ -9,22 +9,22 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using Common.ComInterlop;
 using Microsoft.PowerToys.STATestExtension;
-using Microsoft.PowerToys.ThumbnailHandler.Gcode;
+using Microsoft.PowerToys.ThumbnailHandler.Stl;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace GcodeThumbnailProviderUnitTests
+namespace StlThumbnailProviderUnitTests
 {
     [STATestClass]
-    public class GcodeThumbnailProviderTests
+    public class StlThumbnailProviderTests
     {
         [TestMethod]
-        public void GetThumbnailValidStreamGcode()
+        public void GetThumbnailValidStreamStl()
         {
             // Act
-            var file = File.ReadAllBytes("HelperFiles/sample.gcode");
+            var file = File.ReadAllBytes("HelperFiles/sample.stl");
 
-            GcodeThumbnailProvider provider = new GcodeThumbnailProvider();
+            StlThumbnailProvider provider = new StlThumbnailProvider();
 
             provider.Initialize(GetMockStream(file), 0);
 
@@ -35,12 +35,12 @@ namespace GcodeThumbnailProviderUnitTests
         }
 
         [TestMethod]
-        public void GetThumbnailInValidSizeGcode()
+        public void GetThumbnailInValidSizeStl()
         {
             // Act
-            var file = File.ReadAllBytes("HelperFiles/sample.gcode");
+            var file = File.ReadAllBytes("HelperFiles/sample.stl");
 
-            GcodeThumbnailProvider provider = new GcodeThumbnailProvider();
+            StlThumbnailProvider provider = new StlThumbnailProvider();
 
             provider.Initialize(GetMockStream(file), 0);
 
@@ -51,12 +51,12 @@ namespace GcodeThumbnailProviderUnitTests
         }
 
         [TestMethod]
-        public void GetThumbnailToBigGcode()
+        public void GetThumbnailToBigStl()
         {
             // Act
-            var file = File.ReadAllBytes("HelperFiles/sample.gcode");
+            var file = File.ReadAllBytes("HelperFiles/sample.stl");
 
-            GcodeThumbnailProvider provider = new GcodeThumbnailProvider();
+            StlThumbnailProvider provider = new StlThumbnailProvider();
 
             provider.Initialize(GetMockStream(file), 0);
 
@@ -67,19 +67,19 @@ namespace GcodeThumbnailProviderUnitTests
         }
 
         [TestMethod]
-        public void CheckNoGcodeEmptyStringShouldReturnNullBitmap()
+        public void CheckNoStlEmptyStreamShouldReturnNullBitmap()
         {
-            using (var reader = new StringReader(string.Empty))
+            using (var stream = new MemoryStream())
             {
-                Bitmap thumbnail = GcodeThumbnailProvider.GetThumbnail(reader, 256);
+                Bitmap thumbnail = StlThumbnailProvider.GetThumbnail(stream, 256);
                 Assert.IsTrue(thumbnail == null);
             }
         }
 
         [TestMethod]
-        public void CheckNoGcodeNullStringShouldReturnNullBitmap()
+        public void CheckNoStlNullStreamShouldReturnNullBitmap()
         {
-            Bitmap thumbnail = GcodeThumbnailProvider.GetThumbnail(null, 256);
+            Bitmap thumbnail = StlThumbnailProvider.GetThumbnail(null, 256);
             Assert.IsTrue(thumbnail == null);
         }
 

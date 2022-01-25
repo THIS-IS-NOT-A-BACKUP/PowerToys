@@ -142,6 +142,7 @@ bigbar
 bigobj
 binaryformatter
 binlog
+bios
 bitmapimage
 BITMAPINFO
 BITMAPINFOHEADER
@@ -723,6 +724,7 @@ HOLDESC
 homepage
 homljgmgpmcbpjbnjpfijnhipfkiclkd
 HOOKPROC
+Hostbackdropbrush
 hostname
 hotkeycontrol
 hotkeys
@@ -1102,6 +1104,7 @@ LPVOID
 LPW
 lpwndpl
 LPWSTR
+LReader
 LRESULT
 lshift
 lstrcmp
@@ -1396,6 +1399,7 @@ outsettings
 OVERLAPPEDWINDOW
 overlaywindow
 Overridable
+Oversampling
 OWNDC
 PACL
 PAINTSTRUCT
@@ -1860,6 +1864,7 @@ STEPIT
 stgm
 STGMEDIUM
 sticpl
+stl
 stoi
 stol
 stoll
@@ -2012,6 +2017,7 @@ UAL
 uap
 udit
 Udp
+uefi
 UIA
 Uid
 uint
