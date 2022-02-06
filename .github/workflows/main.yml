@@ -3,12 +3,12 @@ name: Sync Upstream
 
 env:
   # Required, URL to upstream (fork base)
-  UPSTREAM_URL: "https://github.com/<usr>/<repo>.git"
+  UPSTREAM_URL: "https://github.com/microsoft/PowerToys.git"
   # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }} 
   # Over here, we use a PAT instead to authenticate workflow file changes.
   WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
   # Required, is usually "master" or "main"
-  UPSTREAM_BRANCH: "master"
+  UPSTREAM_BRANCH: "main"
   # Optional, defaults to UPSTREAM_BRANCH
   DOWNSTREAM_BRANCH: ""
   # Optional merge arguments
