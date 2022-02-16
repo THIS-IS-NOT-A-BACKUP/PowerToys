@@ -264,6 +264,7 @@ Cls
 cls
 CLSCTX
 clsid
+Clusion
 cmder
 Cmdlet
 cmdline
@@ -1503,6 +1504,7 @@ pesi
 PEXCEPTION
 pfn
 pfo
+pft
 pgp
 pguid
 phbm
@@ -2226,6 +2228,7 @@ VSC
 VSCBD
 vscdb
 vscode
+vsconfig
 VSCROLL
 vse
 vsix
@@ -2233,6 +2236,7 @@ vsonline
 vstemplate
 VSTHRD
 VSTT
+vtable
 VTABLE
 Vtbl
 WBounds
