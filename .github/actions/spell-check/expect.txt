@@ -395,6 +395,7 @@ cursorpos
 customaction
 CUSTOMACTIONTEST
 cvd
+CVirtual
 cwchar
 cwd
 cxfksword
@@ -500,6 +501,7 @@ dllmain
 dlls
 DNLEN
 doctype
+DONOTROUND
 DONTVALIDATEPATH
 dotnet
 DOverlay
@@ -542,6 +544,8 @@ Dwmp
 DWMSENDICONICLIVEPREVIEWBITMAP
 DWMSENDICONICTHUMBNAIL
 DWMWA
+DWMWCP
+DWMWINDOWATTRIBUTE
 DWMWINDOWMAXIMIZEDCHANGE
 dword
 dworigin
@@ -1816,6 +1820,7 @@ robocopy
 Roboto
 roslyn
 Rothera
+ROUNDSMALL
 royvou
 Rpc
 RRF
@@ -1829,6 +1834,7 @@ RTLREADING
 ruleset
 RUNACTIVEXCTLS
 runas
+rundll
 rungameid
 RUNLEVEL
 runsettings
@@ -2285,6 +2291,7 @@ vcredist
 VCRT
 vcruntime
 vcvars
+VDesktop
 vdi
 VDId
 vec
