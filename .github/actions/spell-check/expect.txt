@@ -839,6 +839,7 @@ IIO
 IItem
 IJson
 IKs
+Ijwhost
 IList
 ILogon
 IMAGEHLP
@@ -1061,6 +1062,7 @@ lhs
 lhwnd
 lia
 LIBID
+Lifecycle
 LIGHTORANGE
 LIGHTTURQUOISE
 lindex
@@ -1155,6 +1157,7 @@ Marquesas
 martinchrzan
 martinmoene
 Mato
+Maximizable
 MAXIMIZEBOX
 MAXSHORTCUTSIZE
 maxversiontested
@@ -1201,6 +1204,7 @@ millis
 mimetype
 mindaro
 Minimatch
+Minimizable
 MINIMIZEBOX
 MINIMIZEEND
 MINIMIZESTART
@@ -1655,6 +1659,7 @@ regkey
 REGPINTYPES
 regsvr
 reimplementing
+REINSTALLMODE
 reloadable
 Remapper
 remappings
@@ -2243,6 +2248,8 @@ WINDOWPLACEMENT
 WINDOWPOSCHANGED
 WINDOWPOSCHANGING
 Windowsapp
+windowsappsdk
+windowsappruntimeinstall
 WINDOWSBUILDNUMBER
 Windowscodecs
 windowsdesktop
