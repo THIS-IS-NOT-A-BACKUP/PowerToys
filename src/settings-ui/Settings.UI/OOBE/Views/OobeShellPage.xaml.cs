@@ -103,15 +103,15 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
                 IsNew = true,
             });
 
-            Modules.Insert((int)PowerToysModules.PowerAccent, new OobePowerToysModule()
+            Modules.Insert((int)PowerToysModules.QuickAccent, new OobePowerToysModule()
             {
-                ModuleName = "PowerAccent",
+                ModuleName = "QuickAccent",
                 IsNew = true,
             });
 
-            Modules.Insert((int)PowerToysModules.PowerOCR, new OobePowerToysModule()
+            Modules.Insert((int)PowerToysModules.TextExtractor, new OobePowerToysModule()
             {
-                ModuleName = "PowerOCR",
+                ModuleName = "TextExtractor",
                 IsNew = true,
             });
 
@@ -189,9 +189,9 @@ namespace Microsoft.PowerToys.Settings.UI.OOBE.Views
                     case "Run": NavigationFrame.Navigate(typeof(OobeRun)); break;
                     case "ImageResizer": NavigationFrame.Navigate(typeof(OobeImageResizer)); break;
                     case "KBM": NavigationFrame.Navigate(typeof(OobeKBM)); break;
-                    case "PowerAccent": NavigationFrame.Navigate(typeof(OobePowerAccent)); break;
+                    case "QuickAccent": NavigationFrame.Navigate(typeof(OobePowerAccent)); break;
                     case "PowerRename": NavigationFrame.Navigate(typeof(OobePowerRename)); break;
-                    case "PowerOCR": NavigationFrame.Navigate(typeof(OobePowerOCR)); break;
+                    case "TextExtractor": NavigationFrame.Navigate(typeof(OobePowerOCR)); break;
                     case "FileExplorer": NavigationFrame.Navigate(typeof(OobeFileExplorer)); break;
                     case "ShortcutGuide": NavigationFrame.Navigate(typeof(OobeShortcutGuide)); break;
                     case "VideoConference": NavigationFrame.Navigate(typeof(OobeVideoConference)); break;

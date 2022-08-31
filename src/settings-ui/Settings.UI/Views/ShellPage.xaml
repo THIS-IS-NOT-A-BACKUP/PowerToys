@@ -95,7 +95,7 @@
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
 
-                <muxc:NavigationViewItem x:Uid="Shell_PowerAccent"
+                <muxc:NavigationViewItem x:Uid="Shell_QuickAccent"
                                          helpers:NavHelper.NavigateTo="views:PowerAccentPage">
                     <muxc:NavigationViewItem.Icon>
                         <BitmapIcon UriSource="ms-appx:///Assets/FluentIcons/FluentIconsPowerAccent.png"
@@ -109,7 +109,7 @@
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
                 
-                <muxc:NavigationViewItem x:Uid="Shell_PowerOcr"
+                <muxc:NavigationViewItem x:Uid="Shell_TextExtractor"
                                          helpers:NavHelper.NavigateTo="views:PowerOcrPage">
                     <muxc:NavigationViewItem.Icon>
                         <BitmapIcon UriSource="ms-appx:///Assets/FluentIcons/FluentIconsPowerOcr.png"
