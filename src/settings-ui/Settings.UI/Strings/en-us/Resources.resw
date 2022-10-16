@@ -2460,6 +2460,12 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="TextExtractor_EnableToggleControl_HeaderText.Header" xml:space="preserve">
     <value>Enable Text Extractor</value>
   </data>
+  <data name="TextExtractor_SupportedLanguages.Title" xml:space="preserve">
+    <value>Text Extractor can only recognize languages that have the OCR pack installed.</value>
+  </data>
+  <data name="TextExtractor_SupportedLanguages_Link.Content" xml:space="preserve">
+    <value>Learn more about supported languages</value>
+  </data>
   <data name="Shell_TextExtractor.Content" xml:space="preserve">
     <value>Text Extractor</value>
   </data>
@@ -2532,6 +2538,9 @@ Activate by holding the key for the character you want to add an accent to, then
   </data>
   <data name="QuickAccent_SelectedLanguage_Polish.Content" xml:space="preserve">
     <value>Polish</value>
+  </data>
+  <data name="QuickAccent_SelectedLanguage_Portuguese.Content" xml:space="preserve">
+    <value>Portuguese</value>
   </data>
   <data name="QuickAccent_SelectedLanguage_Slovakian.Content" xml:space="preserve">
     <value>Slovakian</value>
