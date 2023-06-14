@@ -3040,6 +3040,9 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="General_SettingsBackupAndRestore_BackupError" xml:space="preserve">
     <value>There was an error. Try another backup location.</value>
   </data>
+  <data name="General_SettingsBackupAndRestore_SettingsFormatError" xml:space="preserve">
+    <value>There was an error in the settings format. Please check the settings file:</value>
+  </data>
   <data name="General_SettingsBackupAndRestore_BackupComplete" xml:space="preserve">
     <value>Backup completed.</value>
   </data>
@@ -3308,6 +3311,19 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="FileLocksmith_Enable_FileLocksmith.Header" xml:space="preserve">
     <value>Enable File Locksmith</value>
     <comment>File Locksmith is the name of the utility</comment>
+  </data>
+  <data name="FileLocksmith_Toggle_StandardContextMenu.Content" xml:space="preserve">
+    <value>Default and extended context menu</value>
+  </data>
+	<data name="FileLocksmith_Toggle_ExtendedContextMenu.Content" xml:space="preserve">
+    <value>Extended context menu only</value>
+  </data>
+  <data name="FileLocksmith_Toggle_ContextMenu.Header" xml:space="preserve">
+    <value>Show File Locksmith in</value>
+  </data>
+  <data name="FileLocksmith_ShellIntegration.Header" xml:space="preserve">
+    <value>Shell integration</value>
+    <comment>This refers to directly integrating in with Windows</comment>
   </data>
   <data name="GPO_IsSettingForced.Title" xml:space="preserve">
     <value>The system administrator is forcing this setting.</value>
