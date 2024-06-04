@@ -11,6 +11,7 @@ namespace PowerAccent.Core
     {
         ALL,
         CA,
+        CRH,
         CUR,
         CY,
         CZ,
@@ -54,6 +55,7 @@ namespace PowerAccent.Core
             {
                 Language.ALL => GetDefaultLetterKeyALL(letter), // ALL
                 Language.CA => GetDefaultLetterKeyCA(letter), // Catalan
+                Language.CRH => GetDefaultLetterKeyCRH(letter), // Crimean Tatar
                 Language.CUR => GetDefaultLetterKeyCUR(letter), // Currency
                 Language.CY => GetDefaultLetterKeyCY(letter), // Welsh
                 Language.CZ => GetDefaultLetterKeyCZ(letter), // Czech
@@ -100,6 +102,7 @@ namespace PowerAccent.Core
             if (!_allLanguagesCache.TryGetValue(letter, out string[] cachedValue))
             {
                 cachedValue = GetDefaultLetterKeyCA(letter)
+                .Union(GetDefaultLetterKeyCRH(letter))
                 .Union(GetDefaultLetterKeyCUR(letter))
                 .Union(GetDefaultLetterKeyCY(letter))
                 .Union(GetDefaultLetterKeyCZ(letter))
@@ -168,7 +171,7 @@ namespace PowerAccent.Core
                 LetterKey.VK_K => new[] { "ķ", "ǩ" },
                 LetterKey.VK_L => new[] { "ļ", "₺" }, // ₺ is in VK_T for other languages, but not VK_L, so we add it here.
                 LetterKey.VK_M => new[] { "ṁ" },
-                LetterKey.VK_N => new[] { "ņ", "ṅ", "ⁿ", "ℕ" },
+                LetterKey.VK_N => new[] { "ņ", "ṅ", "ⁿ", "ℕ", "№" },
                 LetterKey.VK_O => new[] { "ȯ", "∅" },
                 LetterKey.VK_P => new[] { "ṗ", "℗", "∏", "¶" },
                 LetterKey.VK_Q => new[] { "ℚ" },
@@ -182,12 +185,32 @@ namespace PowerAccent.Core
                 LetterKey.VK_Y => new[] { "ẏ", "ꝡ" },
                 LetterKey.VK_Z => new[] { "ʒ", "ǯ", "ℤ" },
                 LetterKey.VK_COMMA => new[] { "∙", "₋", "⁻", "–", "√" }, // – is in VK_MINUS for other languages, but not VK_COMMA, so we add it here.
-                LetterKey.VK_PERIOD => new[] { "…", "\u0300", "\u0301", "\u0302", "\u0303", "\u0304", "\u0308", "\u030C" },
+                LetterKey.VK_PERIOD => new[] { "…", "\u0300", "\u0301", "\u0302", "\u0303", "\u0304", "\u0308", "\u030B", "\u030C" },
                 LetterKey.VK_MINUS => new[] { "~", "‐", "‑", "‒", "—", "―", "⁓", "−", "⸺", "⸻", "∓" },
                 LetterKey.VK_SLASH_ => new[] { "÷", "√" },
                 LetterKey.VK_DIVIDE_ => new[] { "÷", "√" },
                 LetterKey.VK_MULTIPLY_ => new[] { "×", "⋅" },
                 LetterKey.VK_PLUS => new[] { "≤", "≥", "≠", "≈", "≙", "⊕", "⊗", "∓", "≅", "≡" },
+                _ => Array.Empty<string>(),
+            };
+        }
+
+        // Crimean Tatar
+        private static string[] GetDefaultLetterKeyCRH(LetterKey letter)
+        {
+            return letter switch
+            {
+                LetterKey.VK_A => new[] { "â" },
+                LetterKey.VK_C => new[] { "ç" },
+                LetterKey.VK_E => new[] { "€" },
+                LetterKey.VK_G => new[] { "ğ" },
+                LetterKey.VK_H => new[] { "₴" },
+                LetterKey.VK_I => new[] { "ı", "İ" },
+                LetterKey.VK_N => new[] { "ñ" },
+                LetterKey.VK_O => new[] { "ö" },
+                LetterKey.VK_S => new[] { "ş" },
+                LetterKey.VK_T => new[] { "₺" },
+                LetterKey.VK_U => new[] { "ü" },
                 _ => Array.Empty<string>(),
             };
         }

@@ -3447,6 +3447,9 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="QuickAccent_SelectedLanguage_Catalan.Content" xml:space="preserve">
     <value>Catalan</value>
   </data>
+  <data name="QuickAccent_SelectedLanguage_Crimean.Content" xml:space="preserve">
+    <value>Crimean Tatar</value>
+  </data>
   <data name="QuickAccent_SelectedLanguage_Currency.Content" xml:space="preserve">
     <value>Currency</value>
   </data>
@@ -4155,6 +4158,9 @@ Activate by holding the key for the character you want to add an accent to, then
   </data>
   <data name="AdvancedPaste_EnableAIDialog_LoginIntoText.Text" xml:space="preserve">
     <value>• Login into your</value>
+  </data>
+  <data name="AdvancedPaste_EnableAIDialog_ConfigureOpenAIKey.Text" xml:space="preserve">
+    <value>Configure OpenAI key</value>
   </data>
   <data name="AdvancedPaste_EnableAIDialog_OpenAIApiKeysOverviewText.Text" xml:space="preserve">
     <value>OpenAI API keys overview</value>
