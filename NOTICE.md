@@ -1318,7 +1318,7 @@ EXHIBIT A -Mozilla Public License.
 - Mages 2.0.2
 - Markdig.Signed 0.34.0
 - MessagePack 2.5.187
-- Microsoft.CodeAnalysis.NetAnalyzers 9.0.0-preview.24508.2
+- Microsoft.CodeAnalysis.NetAnalyzers 9.0.0
 - Microsoft.Data.Sqlite 9.0.0
 - Microsoft.Diagnostics.Tracing.TraceEvent 3.1.16
 - Microsoft.Extensions.DependencyInjection 9.0.0
@@ -1326,6 +1326,7 @@ EXHIBIT A -Mozilla Public License.
 - Microsoft.Extensions.Hosting.WindowsServices 9.0.0
 - Microsoft.Extensions.Logging 9.0.0
 - Microsoft.Extensions.Logging.Abstractions 9.0.0
+- Microsoft.NET.ILLink.Tasks (A)
 - Microsoft.Toolkit.Uwp.Notifications 7.1.2
 - Microsoft.Web.WebView2 1.0.2739.15
 - Microsoft.Win32.SystemEvents 9.0.0
