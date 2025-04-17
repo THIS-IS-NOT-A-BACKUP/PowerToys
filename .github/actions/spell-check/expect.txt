@@ -173,6 +173,7 @@ CContext
 CDeclaration
 CElems
 CENTERALIGN
+cer
 certlm
 certmgr
 cfp
@@ -343,6 +344,7 @@ DEVMODE
 DEVMODEW
 devpal
 DIALOGEX
+digicert
 dimm
 DISABLEASACTIONKEY
 DISABLENOSCROLL
@@ -939,6 +941,7 @@ mpmc
 MRM
 MRT
 mru
+MSAL
 msc
 mscorlib
 msctls
@@ -1296,6 +1299,7 @@ QUNS
 QXZ
 RAII
 RAlt
+Rappl
 randi
 Rasterization
 Rasterize
@@ -1496,6 +1500,7 @@ SIDs
 siex
 sigdn
 SIGNINGSCENARIO
+signtool
 Signtool
 SINGLEKEY
 sipolicy
