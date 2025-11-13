@@ -233,10 +233,11 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
                 RemoveLegacyOpenAICredential();
             }
 
+            bool shouldEnableAI = legacyCredential is not null;
             bool enabledChanged = false;
-            if (!properties.IsAIEnabled && legacyCredential is not null)
+            if (properties.IsAIEnabled != shouldEnableAI)
             {
-                properties.IsAIEnabled = true;
+                properties.IsAIEnabled = shouldEnableAI;
                 enabledChanged = true;
             }
 
@@ -541,6 +542,19 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
                 if (value != _advancedPasteSettings.Properties.CloseAfterLosingFocus)
                 {
                     _advancedPasteSettings.Properties.CloseAfterLosingFocus = value;
+                    NotifySettingsChanged();
+                }
+            }
+        }
+
+        public bool EnableClipboardPreview
+        {
+            get => _advancedPasteSettings.Properties.EnableClipboardPreview;
+            set
+            {
+                if (value != _advancedPasteSettings.Properties.EnableClipboardPreview)
+                {
+                    _advancedPasteSettings.Properties.EnableClipboardPreview = value;
                     NotifySettingsChanged();
                 }
             }
@@ -1202,6 +1216,12 @@ namespace Microsoft.PowerToys.Settings.UI.ViewModels
             {
                 target.CloseAfterLosingFocus = source.CloseAfterLosingFocus;
                 OnPropertyChanged(nameof(CloseAfterLosingFocus));
+            }
+
+            if (target.EnableClipboardPreview != source.EnableClipboardPreview)
+            {
+                target.EnableClipboardPreview = source.EnableClipboardPreview;
+                OnPropertyChanged(nameof(EnableClipboardPreview));
             }
 
             var incomingConfig = source.PasteAIConfiguration ?? new PasteAIConfiguration();
