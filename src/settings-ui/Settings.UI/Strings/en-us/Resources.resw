@@ -2195,6 +2195,9 @@ From there, simply click on one of the supported files in the File Explorer and 
   <data name="ScoobeWindow_TitleTxt.Title" xml:space="preserve">
     <value>What's new in PowerToys</value>
   </data>
+  <data name="ScoobeReleaseNotes_ViewOnGitHub" xml:space="preserve">
+    <value>View on GitHub</value>
+  </data>
   <data name="SettingsWindow_Title" xml:space="preserve">
     <value>PowerToys Settings</value>
     <comment>Title of the settings window when running as user</comment>
@@ -4381,6 +4384,10 @@ Activate by holding the key for the character you want to add an accent to, then
   <data name="NewPlus_Hide_Starting_Digits_Description.Text" xml:space="preserve">
     <value>Ignores digits, spaces, and dots at the start of filenames—useful for sorting templates without showing those characters</value>
     <comment>Template filename starting digits settings toggle</comment>
+  </data>
+  <data name="NewPlusHideBuiltInNewToggle.Header" xml:space="preserve">
+    <value>Hide the built-in "New" context menu</value>
+    <comment>Localize New in accordance with Windows New</comment>
   </data>
   <data name="NewPlus_behavior.Header" xml:space="preserve">
     <value>Behavior</value>
