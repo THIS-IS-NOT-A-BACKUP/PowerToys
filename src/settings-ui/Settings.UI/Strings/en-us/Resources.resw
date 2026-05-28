@@ -507,7 +507,7 @@ opera.exe</value>
     <comment>Product name: Navigation view item name for PowerRename</comment>
   </data>
   <data name="Shell_ShortcutGuide.Content" xml:space="preserve">
-    <value>Shortcut Guide V2</value>
+    <value>Shortcut Guide</value>
     <comment>Product name: Navigation view item name for Shortcut Guide</comment>
   </data>
   <data name="Shell_PowerPreview.Content" xml:space="preserve">
@@ -1375,7 +1375,7 @@ opera.exe</value>
     <comment>do not loc the product name</comment>
   </data>
   <data name="ShortcutGuide.ModuleTitle" xml:space="preserve">
-    <value>Shortcut Guide V2</value>
+    <value>Shortcut Guide</value>
   </data>
   <data name="General_Repository.Text" xml:space="preserve">
     <value>GitHub repository</value>
@@ -2069,7 +2069,7 @@ The shortcuts always correspond to the most current application/Windows version.
 Take a look around and explore how some of the PowerToys utilities work and can improve your Windows experience..</value>
   </data>
   <data name="Oobe_Overview_DescriptionLinkText.Text" xml:space="preserve">
-    <value>Documentation on Microsoft Learn</value>
+    <value>Documentation</value>
   </data>
   <data name="Oobe_Overview_ConfigurePowerToysButton.AutomationProperties.Name" xml:space="preserve">
     <value>Configure PowerToys</value>
@@ -2219,7 +2219,7 @@ From there, simply click on one of the supported files in the File Explorer and 
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_ShortcutGuide.Title" xml:space="preserve">
-    <value>Shortcut Guide V2</value>
+    <value>Shortcut Guide</value>
     <comment>Do not localize this string</comment>
   </data>
   <data name="Oobe_Overview_Title.Text" xml:space="preserve">
