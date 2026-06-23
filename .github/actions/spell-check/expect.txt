@@ -1504,6 +1504,7 @@ RAWPATH
 rbhid
 Rbuttondown
 rclsid
+RCW
 RCZOOMIT
 rdp
 RDW
@@ -2077,6 +2078,7 @@ winapi
 winappsdk
 windir
 WINDOWCREATED
+WINDOWDESTROYED
 windowedge
 WINDOWINFO
 WINDOWNAME
