@@ -912,6 +912,18 @@ opera.exe</value>
   <data name="FancyZones_HotkeyPrevTabControl.Header" xml:space="preserve">
     <value>Previous window</value>
   </data>
+  <data name="FancyZones_MonitorRotation.Header" xml:space="preserve">
+    <value>Rotate windows across monitors</value>
+  </data>
+  <data name="FancyZones_MonitorRotation.Description" xml:space="preserve">
+    <value>Hold the shortcut and press Left or Right arrow to rotate open windows across all monitors.</value>
+  </data>
+  <data name="FancyZones_MonitorRotationHotkeyControl.Header" xml:space="preserve">
+    <value>Rotation mode shortcut</value>
+  </data>
+  <data name="FancyZones_MonitorRotationHotkeyControl.Description" xml:space="preserve">
+    <value>Hold this shortcut, then press Left or Right arrow to choose the rotation direction.</value>
+  </data>
   <data name="FancyZones_LaunchEditorButtonControl.Header" xml:space="preserve">
     <value>Open layout editor</value>
     <comment>launches the FancyZones layout editor application</comment>
@@ -1075,6 +1087,12 @@ opera.exe</value>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_MD.Description" xml:space="preserve">
     <value>.md, .markdown, .mdown, .mkdn, .mkd, .mdwn, .mdtxt, .mdtext</value>
     <comment>{Locked}</comment>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_MD_LocalImages.Header" xml:space="preserve">
+    <value>Show local images</value>
+  </data>
+  <data name="FileExplorerPreview_ToggleSwitch_Preview_MD_LocalImages.Description" xml:space="preserve">
+    <value>Display images stored in the Markdown document's folder, including images on the same network share, in the preview. Remote/online images remain blocked.</value>
   </data>
   <data name="FileExplorerPreview_ToggleSwitch_Preview_Monaco.Header" xml:space="preserve">
     <value>Source code files (Monaco)</value>
