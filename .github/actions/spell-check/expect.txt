@@ -46,6 +46,7 @@ ALLOWUNDO
 ALLVIEW
 ALPHATYPE
 altkey
+altwindowcycle
 amr
 animatedvisuals
 Animnate
@@ -104,6 +105,7 @@ authenticode
 AUTOBUDDY
 AUTOCHECKBOX
 AUTOHIDE
+autohidecursor
 AUTOHSCROLL
 AUTOMATIONPROPERTIES
 autopf
@@ -216,6 +218,7 @@ CHILDWINDOW
 CHOOSEFONT
 chu
 CIBUILD
+cifhbcnohmdccbgoicgdjpfamggdegmo
 cidl
 CIELCh
 cim
@@ -242,6 +245,7 @@ CLOSEAPP
 clsids
 Clusion
 cmder
+cmdnotfound
 CMDNOTFOUNDMODULEINTERFACE
 cmdpal
 CMIC
@@ -334,6 +338,7 @@ cursorwrap
 customaction
 CUSTOMACTIONTEST
 CUSTOMFORMATPLACEHOLDER
+cw5n1h2txyewy
 cvd
 CWMO
 CXSCREEN
@@ -442,6 +447,7 @@ dotnet
 downsampled
 downsampling
 downscale
+dpapi
 DPICHANGED
 DPIs
 dpm
@@ -500,7 +506,9 @@ ENABLETAB
 ENABLETEMPLATE
 encodedlaunch
 encryptor
+endfacet
 ENDSESSION
+endsolid
 ENSUREVISIBLE
 ENTERIDLE
 ENTERMENULOOP
@@ -557,6 +565,7 @@ Fairlight
 FANCYZONESDRAWLAYOUTTEST
 FANCYZONESEDITOR
 FARPROC
+faststart
 fdw
 fdx
 fesf
@@ -565,6 +574,7 @@ fffffffzzz
 FFh
 Figma
 figma
+fmgjjmmmlfnkbppncijlocphclkkleod
 FILEEXPLORER
 fileexploreraddons
 fileexplorerpreview
@@ -756,6 +766,7 @@ hotlight
 hotspot
 HPAINTBUFFER
 HPS
+hqdn
 HRAWINPUT
 HREDRAW
 hres
@@ -817,6 +828,7 @@ imagingdevices
 ime
 IMEAceept
 imgflip
+immersivecontrolpanel
 inapp
 inbox
 INCONTACT
@@ -962,6 +974,7 @@ livezoom
 LLKH
 llkhf
 LLMHF
+lmb
 LMEM
 LMENU
 lng
@@ -1088,6 +1101,7 @@ minwindef
 Mip
 mkdn
 mlcfg
+mmb
 mmc
 mmcexe
 mmi
@@ -1103,6 +1117,7 @@ MONITORINFOEX
 MONITORINFOEXW
 monitorinfof
 MOUSEACTIVATE
+mousebuttonlock
 mousecrosshairs
 MOUSEDATA
 MOUSEEVENTF
@@ -1111,6 +1126,7 @@ MOUSEHWHEEL
 MOUSEINPUT
 mousejump
 mousepointer
+mousepointercrosshairs
 mouseutils
 MOVESIZEEND
 MOVESIZESTART
@@ -1180,11 +1196,14 @@ NCMOUSEMOVE
 ncpa
 NCPAINT
 NCRENDERING
+ncrypt
+ncryptprotect
 ndp
 NEEDDISPATCH
 netcoreapp
 netcpl
 netframework
+NETSDK
 netsetup
 netsh
 NEWDIALOGSTYLE
@@ -1308,6 +1327,7 @@ openxmlformats
 OPTIMIZEFORINVOKE
 Optronics
 ORPHANEDDIALOGTITLE
+osk
 oss
 OSVERSIONINFO
 OSVERSIONINFOEX
@@ -1483,6 +1503,7 @@ psapi
 pscid
 pscustomobject
 PSECURITY
+pseudolocalizer
 psfgao
 psfi
 PSMODULEPATH
@@ -1606,6 +1627,7 @@ RIDEV
 RIGHTBUTTON
 RIGHTSCROLLBAR
 riid
+rmb
 rollups
 ROUNDSMALL
 rpcrt
@@ -1669,6 +1691,7 @@ SETFOREGROUND
 SETHOTKEY
 SETICON
 SETLOWPOWERACTIVE
+setparams
 SETPOWEROFFACTIVE
 SETRANGE
 SETREDRAW
@@ -1686,6 +1709,7 @@ SETWORKAREA
 SFBS
 sfgao
 SFGAOF
+SGNR
 SHACF
 SHANDLE
 sharepoint
@@ -1761,6 +1785,7 @@ slnx
 SMALLICON
 smartphone
 smileys
+smpte
 SMTO
 SNAPPROCESS
 snk
@@ -1772,6 +1797,7 @@ sourced
 sourcedoc
 SOURCEHEADER
 sourcesdirectory
+sparkline
 spdisp
 spdlog
 spdo
@@ -1961,6 +1987,7 @@ tstoi
 tsv
 tweakable
 TWF
+txyewy
 tymed
 TYPEKEYBOARD
 TYPEMOUSE
@@ -1981,6 +2008,7 @@ UIA
 UIDs
 UIEx
 uild
+UIPI
 uitests
 UITo
 ULONGLONG
@@ -2106,6 +2134,7 @@ wcsicmp
 wcsncpy
 wcsnicmp
 WDA
+wdk
 wdm
 wdp
 wdupenv
@@ -2151,6 +2180,7 @@ wingetpkgs
 Winhook
 WINL
 winlogon
+WINM
 winmd
 winml
 WINNT
@@ -2203,6 +2233,7 @@ wprp
 wql
 wregex
 WResize
+WRITEFAULT
 WRITEOBJECTS
 Wrk
 wrl
@@ -2218,6 +2249,7 @@ WTSAT
 Wubi
 WUX
 Wwanpp
+Wzhudev
 xap
 Xbuttondown
 xclip
